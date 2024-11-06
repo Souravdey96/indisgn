@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.container{
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+section .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Abhaya Libre", serif;
+}
+/* ===============================================================navbar==================================================== */
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+}
+.navbar .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 41px;
+}
+.navbar .container .logo{
+    width: 114px;
+    height: 38px;
+}
+.navbar .container .logo p{
+    font-family: "Abhaya Libre", serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar .container .nav-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .container .nav-menu ul li{
+    margin: 42px;
+}
+.navbar .container .nav-menu ul li a{
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+    width: 59px;
+    height: 26px;
+    transition: all 0.3s ease;
+}
+.navbar .container .contact a{
+    background-color: black;
+    padding: 20px 38px;
+    color: white;
+    font-size: 22px;  
+    transition: all 0.3s ease;
+}
+.navbar .container .nav-menu ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+}
+.navbar .container .contact a:hover{
+    background-color: white;
+    color: black;
+    padding: 8px 8px;
+}
+.navbar .container .hamburger{
+    visibility: hidden;
+}
+/* ===============================================================banner========================================================== */
+.banner{
+    height: 700px;
+}
+.banner .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.banner .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+.banner .container .row .row-left h1{
+    position: absolute;
+    top: 472px;
+    left :-1%;
+    width: 546px;
+    height: 290px;
+    font-size: 172px;
+    line-height: 140px;
+}
+.banner .container .row .row-left p{
+    width: 396px;
+    height: 111px;
+    padding-top: 12px;
+    font-size: 19px;
+    line-height: 26.94px;
+}
+.banner .container .row .row-middle img{
+    width: 385px;
+    height: 455px;
+    margin-top: 151px;
+    filter: opacity(.8);
+}
+.banner .container .row .row-right{
+    height: 28%;
+    padding-left: 151px;
+    display: flex;
+    flex-direction: column;
+}
+.banner .container .row .row-right p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.banner .container .row .row-right p:nth-child(2){
+    width: 438px;
+    height: 84px;
+    margin-top: 21px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+.banner .container .row .row-right a{
+    font-family: "Abhaya Libre", serif;
+    padding: 15px 23px;
+    border: 2px solid black;
+    color: black;
+    font-size: 14px;   
+    width: 126px;
+    font-weight: bold;
+    margin-bottom: 65px;
+    transition: all 0.3s ease;
+}
+.banner .container .row .row-right img{
+    width: 258px;
+    height: 259px;
+}
+.banner .container .row .row-right a:hover{
+    background-color: black;
+    color: white;
+}
+/* =======================================================================exterior================================================= */
+.exterior{
+    height: 800px;
+}
+.exterior .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exterior .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exterior .container .row .row-left img{
+    width: 553px;
+    height: 737px;
+    margin-top: 246px;
+    margin-right: 120px;
+}
+.exterior .container .row .row-right{
+    width: 638px;
+    height: 409px;
+}
+.exterior .container .row .row-right p:nth-child(1){
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2.5px;
+    margin-bottom: 31px;
+}
+.exterior .container .row .row-right h2{
+    width: 535px;
+    height: 230px;
+    font-size: 128px;
+    line-height: 110px
+}
+.exterior .container .row .row-right p:nth-child(3){
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 37px;
+}
+.exterior .container .row .row-right a{
+    width: 215px;
+    height: 70px;
+    background-color: black;
+    padding: 20.07px 37px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+.exterior .container .row .row-right a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+/* =======================================================================program================================================= */
+.program{
+    height: 700px;
+    margin-top: 300px;
+}
+.program .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.program .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+}
+.program .container .row .row-left{
+    width: 100%;
+}
+.program .container .row .row-left h3{
+    width: 556px;
+    height: 166px;
+    font-size: 88px;
+    margin-bottom: 34px;
+    line-height: 87px;
+    text-transform: capitalize;
+}
+.program .container .row .row-left p:nth-child(1){
+    width: 486px;
+    height: 102px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.program .container .row .row-left .row-left-first{
+    width: 586px;
+    height: 102px;
+    display: flex;
+    margin-bottom: 34px;
+}
+.program .container .row .row-left .row-left-first p:nth-child(2){
+    font-size: 98px;
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+}
+.program .container .row .row-left .row-left-first p:nth-child(3){
+    font-size: 98px;
+    position: relative;
+    bottom: 25px;
+    right: 12px;
+    font-weight: 400;
+}
+.program .container .row .row-left .row-left-second{
+    width: 586px;
+    height: 102px;
+    display: flex;
+}
+.program .container .row .row-left .row-left-second p:nth-child(3){
+    width: 486px;
+    height: 102px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.program .container .row .row-left .row-left-second p:nth-child(1){
+    width: 135px;
+    height: 87px;
+    font-size: 98px;
+    position: relative;
+    bottom: 20px;
+    top: 20px;
+    font-weight: normal;
+}
+.program .container .row .row-left .row-left-second p:nth-child(2){
+    font-size: 98px;
+    position: relative;
+    bottom: 20px;
+    padding-right: 20px;
+}
+.program .container .row .row-right{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.program .container .row .row-right img{
+    width: 533px;
+    height: 425px;
+}
+/* =====================================================================functional===================================================== */
+.functional{
+    height: 700px;
+    position: relative;
+}
+.functional .container{
+    width: 100%;
+}
+.functional .container .row{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.functional .container .row .row-left img:nth-child(1){
+    width: 461px;
+    margin-right: 275px;
+}
+.functional .container .row .row-left img:nth-child(2){
+    width: 461px;
+    position: absolute;
+    left: 255px;
+    top: 160px;
+}
+.functional .container .row .row-right{
+    position: relative;
+    bottom: 5px;
+}
+.functional .container .row .row-right h4{
+    /* width: 702px;
+    height: 166px; */
+    font-weight: bold;
+    font-size: 58px;
+    margin-bottom: 62px
+}
+.functional .container .row .row-right p{
+    width: 502px;
+    height: 72px;
+    font-size: 15px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+}
+/* ==================================================================mentorship====================================================== */
+.mentorship{
+    height: 700px;
+}
+.mentorship .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    height: 100%;
+}
+.mentorship .container .center{
+    position: absolute;
+    left: 300px;
+}
+.mentorship .container .center h5{
+    font-size: 78px;
+    width: 100%;
+}
+.mentorship .container .row{
+    width: 100%;
+    margin-top: 140px;
+    position: relative;
+}
+.mentorship .container .row .row-left{
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    padding-right: 106px;
+}
+.mentorship .container .row .row-right{                                                           
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    padding-left: 122px;
+}
+.mentorship .container .row .row-left p:nth-child(1){
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mentorship .container .row .row-left p:nth-child(2){
+    font-family: "Abhaya Libre", serif;
+    width: 406px;
+    height: 126px;
+    font-size: 48px;      
+}
+.mentorship .container .row .row-left p:nth-child(3){
+    width: 433px;
+    height: 111px;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: bold;
+}
+.mentorship .container .row .row-left .price{
+    display: flex;
+    width: 394px;
+    height: 73px;
+    margin-top: 25px;
+}
+.mentorship .container .row .row-left .price p:nth-child(1){
+    font-family: "Abhaya Libre", serif;
+    font-size: 25px;
+    width: 272px;
+    height: 73px;
+}
+.mentorship .container .row .row-left .price p:nth-child(2){
+    font-size: 19px;
+    position: relative;
+    top: 3px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+.mentorship .container .row .row-left a{
+    font-size: 25px;
+    color: black;
+    width: 50%;
+    padding: 18px 35px;
+    border: 2px solid black;
+}
+.mentorship .container .row .row-left a:hover{
+    background-color: black;
+    color: white;
+    /* border: 2px solid black; */
+}
+.mentorship .container .row .row-right{
+    padding: 0 80px 120px ;
+    width: 485px;
+}
+.mentorship .container .row .row-right .certification{
+    width: 227px;
+    height: 79px;
+}
+.mentorship .container .row .row-right .certification p:nth-child(1){
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.mentorship .container .row .row-right .certification p:nth-child(2){
+    font-size: 18px;
+    width: 100%;
+}
+.mentorship .container .row .row-right .course{
+    width: 227px;
+    height: 79px;
+}
+.mentorship .container .row .row-right .course p:nth-child(1){
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.mentorship .container .row .row-right .course p:nth-child(2){
+    font-size: 18px;
+    width: 100%;
+}
+.mentorship .container .row .row-right .duration{
+    width: 227px;
+    height: 79px;
+}
+.mentorship .container .row .row-right .duration p:nth-child(1){
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.mentorship .container .row .row-right .duration p:nth-child(2){
+    font-size: 18px;
+    width: 100%;
+}
+.mentorship .container .row .row-right .course-form{
+    width: 227px;
+    height: 79px;
+}
+.mentorship .container .row .row-right .course-form p:nth-child(1){
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.mentorship .container .row .row-right .course-form p:nth-child(2){
+    font-size: 18px;
+    width: 100%;
+}
+/* ==================================================================furniture======================================================== */
+.furniture{
+    height: 750px;
+    margin-top: 380px;
+}
+.furniture .container{
+    width: 100%;
+}
+.furniture .container .row .row-left img{
+    width: 397px;
+    height: 746px;
+    margin-right: 58px;
+}
+.furniture .container .row .row-middle{
+    width: 398px;
+    height: 317px;
+    margin-right: 74px;
+}
+.furniture .container .row .row-middle h6{
+    font-size: 83px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-family: "Abhaya Libre, sans-serif";
+    font-weight: normal;
+}
+.furniture .container .row .row-middle p{
+    font-weight: bold;
+}
+.furniture .container .row .row-right p{
+    font-weight: bold;
+}
+.furniture .container .row .row-right img{
+    width: 427px;
+    height: 583px;
+    margin-bottom: 23px;
+}
+/* =======================================================================chat======================================================= */
+.chat{
+    height: 550px;
+    margin-top: 115px;
+    margin-bottom: 79px;
+}
+.chat .container{
+    width: 100%;
+}
+.chat .container .row-left{
+    margin-right: 98px;
+}
+.chat .container .row-left p{
+    width: 535px;
+    height: 35px;
+    font-weight: bold;
+    margin-bottom: 43px;
+    font-size: 18px;
+}
+.chat .container .row-left a{
+    font-size: 20px;
+    padding: 19px 50px;
+    border: 2px solid black;
+    color: black;
+    transition: all 0.3s ease;
+}
+.chat .container .row-left a:hover{
+    background-color: black;
+    color: white;
+}
+/* =====================================================================end======================================================== */
+.end{
+    height:476px;
+    background-color: black;
+}
+.end .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.end .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 100%;
+}
+.end .container .row-left{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.end .container .row .row-left p:nth-child(1){
+    font-family: "Abhaya Libre, sans-serif";
+    font-size: 44px;
+    margin-bottom: 23px;
+    color: white;
+}
+.end .container .row .row-left p:nth-child(2){
+    padding-bottom: 203px;
+    font-size: 15px;
+    width: 650px;
+    height: 52px;
+    color: white;
+}
+.end .container .row .row-left p:nth-child(3){
+    color: white;
+}
+.end .container .row .row-right{
+    margin-bottom: 90px;
+}
+.end .container .row .row-right p:nth-child(1){
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+}
+.end .container .row .row-right p:nth-child(2){
+    margin-top: 54px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.end .container .row .row-right p:nth-child(2) i{
+    margin-left: 282px;
+}
+.end .container .row .drop{
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+.end .container .row .drop .drop-1 ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.end .container .row .drop .drop-1 ul li a{
+    color: white;
+    font-weight: bold;
+}
+.end .container .row .drop .drop-2 ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.end .container .row .drop .drop-2 ul li a{
+    color: white;
+    font-weight: bold;
+}
+.end .container .row .connections ul{
+    display: flex;
+    column-gap: 10px;
+}
+.end .container .row .connections ul li{
+    font-weight: bold;
+    color: white;
+}
